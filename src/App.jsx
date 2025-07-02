@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
+import CoursePreview from '../components/CoursePreview'
 import { useEffect, useState } from 'react';
 import { debounce } from 'lodash';
 
@@ -30,6 +31,7 @@ const App = () => {
       <Navbar />
       <div style={{ paddingTop: `${height}px` }}>
         <HeroSection />
+        <CoursePreview />
         <Footer />
       </div>
     </>
